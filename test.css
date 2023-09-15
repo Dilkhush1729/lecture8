@@ -1,0 +1,155 @@
+body {
+    font-family: 'Poppins';
+}
+
+button {
+    background-color: #19ddc4;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px 0px;
+}
+button:hover {
+    background-color: #ff7300;
+    color: white;
+}
+
+.container {
+    display: flex;
+    height: 80px;
+    width: cover;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    box-shadow: 7px 7px 7px 7px;
+    border-radius: 10px;
+}
+.icon{
+    background-color: whitesmoke;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 7px 7px 7px 0px;
+}
+.icon:hover{
+    background-color: #ff7300;
+}
+.nav-bar {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    text-shadow: black;
+}
+
+.nav-bar:hover {
+    color: #ff7300;
+}
+
+/* container 2 */
+.container2 {
+    background-image: url("https://i0.wp.com/picjumbo.com/wp-content/uploads/dark-leaves-black-and-orange-free-photo.jpg?w=600&quality=80");
+    height: 528px;
+    width: cover;
+    background-size: cover;
+    box-shadow: 7px 7px 7px 7px;
+    border-radius: 10px;
+
+}
+ 
+.c-2 {
+    padding: 150px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* conainer 3 */
+
+.container-3 {
+    display: flex;
+    height: 1000px;
+    width: cover;
+    padding: 6%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 6px;
+    box-shadow: 7px 7px 7px 7px;
+    border-radius: 10px;
+}
+
+.card {
+    height: 468px;
+    width: 390px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    border: 2px solid black;
+    box-shadow: 7px 7px 7px 0px;
+    border-radius: 10px;
+}
+.lower {
+    padding: 20px;
+    text-align: center;
+}
+
+.p-image {
+    border-radius: 100%;
+}
+
+.ancher {
+    color: black;
+}
+
+.center {
+    display: flex;
+    gap: 7px;
+}
+
+/* section 4 */
+
+.container-4 {
+    height: auto;
+    width: cover;
+    padding: 6%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 6px;
+    box-shadow: 7px 7px 7px 7px;
+    border-radius: 10px;
+}
+
+.card-3 {
+    height: 468px;
+    width: 450px;
+}
+
+.image {
+    height: 65px;
+    width: 60px;
+    float: left;
+    margin-right: 20px;
+}
+
+.tag {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    margin: 10px;
+}
+
+.tag:hover {
+    color: #ff7300;
+}
+.search{
+    font-size: 21px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px 0px;
+}
+
+/* footer */
+footer{
+    background-color: whitesmoke;
+    text-align: center;
+    box-shadow: 7px 7px 7px 7px;
+    border-radius: 10px;
+}
